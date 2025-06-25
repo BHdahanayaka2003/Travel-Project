@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firstflight Travels | Explore The World</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="./files/logo.png">
+    
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Boxicons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+   
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="navbar" id="navbar">
+            <a href="#home" class="logo-link">
+                <img src="./files/logo.png" class="logo" alt="FirstFlight Travels Logo">
+            </a>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#locations" class="nav-link">Locations</a></li>
+                <li><a href="#packages" class="nav-link">Packages</a></li>
+                <li><a href="./about.html" class="nav-link">About Us</a></li>
+                <li><a href="./contact.html" class="nav-link">Contact Us</a></li>
+            </ul>
+            
+            <div class="nav-toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <video src="./files/bgvid.mp4" type="video/mp4" autoplay muted loop class="hero-video"></video>
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1 class="reveal">FIRSTFLIGHT TRAVELS</h1>
+                <p class="reveal">Plan your trip with us and travel around the world with the most affordable packages!</p>
+                <a href="./register.html" class="btn btn-primary reveal">Register Now!</a>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services section-padding" id="services">
+            <div class="section-title reveal">
+                <h2>Our Premier Services</h2>
+                <p>We provide everything you need for a perfect journey.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <i class='bx bxs-plane-alt'></i>
+                    <h3>Flight Services</h3>
+                    <p>Seamless arrival and departure experiences.</p>
+                </div>
+                <div class="service-card reveal">
+                    <i class='bx bxs-dish'></i>
+                    <h3>Food Services</h3>
+                    <p>Exquisite catering for all your dietary needs.</p>
+                </div>
+                <div class="service-card reveal">
+                    <i class='bx bxs-car'></i>
+                    <h3>Travel Services</h3>
+                    <p>Reliable pick-up and drop-off services.</p>
+                </div>
+                <div class="service-card reveal">
+                    <i class='bx bxs-hotel'></i>
+                    <h3>Hotel Services</h3>
+                    <p>Effortless check-in and out at top hotels.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Locations Section -->
+        <section class="locations section-padding" id="locations">
+            <div class="section-title reveal">
+                <h2>Featured Locations</h2>
+                <p>Discover breathtaking destinations waiting for you.</p>
+            </div>
+            <div class="location-grid">
+                <a href="./locations.html#kashmir" target="_blank" class="location-card reveal">
+                    <img src="./files/l1.jpg" alt="Kashmir, India">
+                    <div class="location-card-content">
+                        <h5>India</h5>
+                        <p>Kashmir</p>
+                    </div>
+                </a>
+                <a href="./locations.html#istanbul" target="_blank" class="location-card reveal">
+                    <img src="./files/l2.jpg" alt="Istanbul, Turkey">
+                    <div class="location-card-content">
+                        <h5>Turkey</h5>
+                        <p>Istanbul</p>
+                    </div>
+                </a>
+                <a href="./locations.html#paris" target="_blank" class="location-card reveal">
+                    <img src="./files/l3.jpg" alt="Paris, France">
+                    <div class="location-card-content">
+                        <h5>France</h5>
+                        <p>Paris</p>
+                    </div>
+                </a>
+                <a href="./locations.html#bali" target="_blank" class="location-card reveal">
+                    <img src="./files/l4.jpg" alt="Bali, Indonesia">
+                    <div class="location-card-content">
+                        <h5>Indonesia</h5>
+                        <p>Bali</p>
+                    </div>
+                </a>
+                <a href="./locations.html#dubai" target="_blank" class="location-card reveal">
+                    <img src="./files/l5.jpg" alt="Dubai, UAE">
+                    <div class="location-card-content">
+                        <h5>UAE</h5>
+                        <p>Dubai</p>
+                    </div>
+                </a>
+                <a href="./locations.html#geneva" target="_blank" class="location-card reveal">
+                    <img src="./files/l6.jpg" alt="Geneva, Switzerland">
+                    <div class="location-card-content">
+                        <h5>Switzerland</h5>
+                        <p>Geneva</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Packages Section -->
+        <section class="packages section-padding" id="packages">
+            <div class="section-title reveal">
+                <h2>Our Packages</h2>
+                <p>Choose the perfect plan that fits your dream vacation.</p>
+            </div>
+            <div class="package-grid">
+                <!-- Bronze Package -->
+                <div class="package-card reveal">
+                    <figure class="package-card-image">
+                        <img src="./files/p1.jpg" alt="Bronze Package Scenery">
+                        <figcaption>Rs.9,999/-</figcaption>
+                    </figure>
+                    <div class="package-card-content">
+                        <h4>Bronze</h4>
+                        <ul>
+                            <li>2 Star Hotel</li>
+                            <li>5 Nights Stay</li>
+                            <li>Friendly Tour Guide</li>
+                            <li>24/7 Customer Help</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Silver Package -->
+                <div class="package-card reveal">
+                    <figure class="package-card-image">
+                        <img src="./files/p2.jpg" alt="Silver Package Scenery">
+                        <figcaption>Rs.19,999/-</figcaption>
+                    </figure>
+                    <div class="package-card-content">
+                        <h4>Silver</h4>
+                        <ul>
+                            <li>3 Star Hotel</li>
+                            <li>7 Nights Stay</li>
+                            <li>Friendly Tour Guide</li>
+                            <li>Free Photo Session</li>
+                            <li>24/7 Customer Help</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Gold Package -->
+                <div class="package-card reveal">
+                    <figure class="package-card-image">
+                        <img src="./files/p3.jpg" alt="Gold Package Scenery">
+                        <figcaption>Rs.29,999/-</figcaption>
+                    </figure>
+                    <div class="package-card-content">
+                        <h4>Gold</h4>
+                        <ul>
+                            <li>4 Star Hotel</li>
+                            <li>10 Nights Stay</li>
+                            <li>Breakfast and Dinner</li>
+                            <li>Friendly Tour Guide</li>
+                            <li>Free Photo Session</li>
+                            <li>24/7 Customer Help</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Platinum Package -->
+                <div class="package-card reveal">
+                    <figure class="package-card-image">
+                        <img src="./files/p4.jpg" alt="Platinum Package Scenery">
+                        <figcaption>Rs.39,999/-</figcaption>
+                    </figure>
+                    <div class="package-card-content">
+                        <h4>Platinum</h4>
+                        <ul>
+                            <li>5 Star Hotel</li>
+                            <li>14 Nights Stay</li>
+                            <li>All Meals Included</li>
+                            <li>Bonfire & Events</li>
+                            <li>Free Photo Session</li>
+                            <li>Friendly Tour Guide</li>
+                            <li>24/7 Customer Help</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="newsletter section-padding">
+            <div class="newsletter-content reveal">
+                <div class="newsletter-text">
+                    <h2>Subscribe to our Newsletter</h2>
+                    <p>Get exclusive offers and weekly travel inspiration delivered to your inbox.</p>
+                </div>
+                <form action="#" class="newsletter-form">
+                    <input type="email" name="emailid" placeholder="Enter your e-mail" required>
+                    <button type="submit" class="btn btn-secondary">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <img src="./files/logo.png" alt="Firstflight Travels Logo" class="footer-logo">
+                <p>Making your travel dreams a reality with unparalleled service and unforgettable experiences.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="./register.html">Register</a></li>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="./contact.html">Contact Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Connect With Us</h4>
+                <div class="social-icons">
+                    <a href="#" target="_blank" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" target="_blank" aria-label="Instagram"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#" target="_blank" aria-label="Twitter"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#" target="_blank" aria-label="LinkedIn"><i class='bx bxl-linkedin' ></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright © 2024 Firstflight Travels. All Rights Reserved. | Developed by Budhvin Himsanda</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+
+</body>
+</html>
